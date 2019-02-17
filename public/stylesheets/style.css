@@ -1,6 +1,6 @@
 #dog-nav{
-    width: 60px;
-    height: 55px;
+    width: 150px;
+    height: 75px;
     padding: 0;
 }
 
@@ -9,11 +9,42 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face{
+    font-family: Arvo;
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
 nav{
     background: -webkit-gradient(linear, left top, right top, from(#0077b3), to(#0088cc));
+   
+}
+
+.jumbotron{
+    height: 450px;
+}
+
+.row{
+    margin-right: 0;
 }
 
 nav ul li{
     font-family: Roboto;
-    /*text-transform: uppercase;*/
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.panel-heading{
+    background: #0099e6;
+}
+
+.shadow{
+    box-shadow: 10px 5px 13px -3px rgba(0,0,0,0.81);
+}
+
+#titulo{
+    font-size: 34px;
+    color: white;
+    font-family: Arvo;
 }
