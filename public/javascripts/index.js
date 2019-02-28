@@ -16,10 +16,4 @@ $(function () {
             });
         });
     });
-
-    var cont = 1;
-    setInterval(() => {
-        cont = cont == 1 ? 2 : 1;
-        $('body').css('background-image', `url("../public/images/bg/edward${cont}.jpeg")`);
-    }, 5000)
 });
